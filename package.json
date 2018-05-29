@@ -1,0 +1,62 @@
+{
+	"name": "@j0hnm4r5/easings",
+	"version": "0.0.0",
+	"description": "A set of named and generic easing functions for ES2015",
+	"main": "easings.js",
+	"repository": "github:j0hnm4r5/easings",
+	"author": "John Mars <john@M4R5.io> (http://M4R5.io)",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.4",
+		"babel-preset-env": "^1.6.1",
+		"prettier": "^1.12.1",
+		"xo": "^0.21.1"
+	},
+	"prettier": {
+		"printWidth": 88,
+		"tabWidth": 4,
+		"useTabs": true,
+		"semicolons": true,
+		"singleQuote": false,
+		"trailingComma": "es5",
+		"bracketSpacing": true,
+		"arrowParens": "always"
+	},
+	"babel": {
+		"presets": [
+			[
+				"env",
+				{
+					"targets": {
+						"node": "current",
+						"browsers": "Chrome >= 65"
+					}
+				}
+			]
+		]
+	},
+	"xo": {
+		"rules": {
+			"import/newline-after-import": "off",
+			"import/order": "off",
+			"import/first": "off",
+			"prefer-template": "warn",
+			"no-shadow": "error",
+			"no-warning-comments": "off",
+			"guard-for-in": "error",
+			"import/no-unassigned-import": "off",
+			"camelcase": [
+				"error",
+				{
+					"properties": "never"
+				}
+			],
+			"capitalized-comments": "off",
+			"no-unused-vars": "warn"
+		},
+		"prettier": true,
+		"envs": ["browser"]
+	}
+}
