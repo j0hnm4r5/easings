@@ -1,15 +1,13 @@
 {
 	"name": "@j0hnm4r5/easings",
-	"version": "0.0.0",
+	"version": "1.0.1",
 	"description": "A set of named and generic easing functions for ES2015",
 	"main": "easings.js",
 	"repository": "github:j0hnm4r5/easings",
 	"author": "John Mars <john@M4R5.io> (http://M4R5.io)",
 	"license": "MIT",
-	"private": false,
 	"devDependencies": {
 		"babel-core": "^6.26.0",
-		"babel-loader": "^7.1.4",
 		"babel-preset-env": "^1.6.1",
 		"prettier": "^1.12.1",
 		"xo": "^0.21.1"
@@ -57,6 +55,8 @@
 			"no-unused-vars": "warn"
 		},
 		"prettier": true,
-		"envs": ["browser"]
+		"envs": [
+			"browser"
+		]
 	}
 }
