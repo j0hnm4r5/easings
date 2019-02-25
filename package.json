@@ -1,6 +1,6 @@
 {
 	"name": "@j0hnm4r5/easings",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "A set of named and generic easing functions for ES2015",
 	"main": "easings.js",
 	"repository": "github:j0hnm4r5/easings",
