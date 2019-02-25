@@ -2,7 +2,6 @@
 
 [![XO](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/xojs/xo)
 [![Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/)
-![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)
 
 Yet another Easings library for JS (ES2015+).
 

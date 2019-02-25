@@ -18,7 +18,7 @@ const GenericEases = {
 	},
 };
 
-export const Easings = {
+const Easings = {
 	// GENERIC EASES =========
 	easeIn: (p) => {
 		return GenericEases.easeIn(p);
@@ -157,3 +157,5 @@ export const Easings = {
 		return 0.5 * Easings.easeOutBounce(t * 2 - 1) + 0.5;
 	},
 };
+
+export default Easings;
